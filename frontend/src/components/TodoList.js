@@ -1,5 +1,6 @@
 import API from "../services/api";
 import { useNavigate } from "react-router-dom";
+import "../styles/Todo.css";
 
 function TodoList({todos, fetchTodos}) {
 
@@ -17,7 +18,7 @@ function TodoList({todos, fetchTodos}) {
 
                     <h3>{todo.title}</h3>
                     <p>{todo.description}</p>
-                    <p>Status: {todo.status}</p>
+                    {/* <p>Status: {todo.status}</p> */}
 
                     <button onClick={()=>navigate(`/edit/${todo._id}`)}>
                         Edit

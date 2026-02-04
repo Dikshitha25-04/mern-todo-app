@@ -1,5 +1,6 @@
 import { useState } from "react";
 import API from "../services/api";
+import "../styles/Form.css";
 
 function TodoForm({fetchTodos}) {
 

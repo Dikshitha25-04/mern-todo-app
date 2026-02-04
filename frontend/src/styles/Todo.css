@@ -1,0 +1,39 @@
+.todo-card{
+    border:1px solid #eee;
+    padding:15px;
+    border-radius:8px;
+    margin-top:10px;
+    background:#fafafa;
+    transition:0.2s;
+}
+
+.todo-card:hover{
+    transform:scale(1.02);
+}
+
+.todo-title{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.todo-buttons{
+    margin-top:10px;
+    display:flex;
+    gap:10px;
+}
+
+.delete-btn{
+    background:#ff4d4d;
+}
+
+.delete-btn:hover{
+    background:#e60000;
+}
+
+.edit-btn{
+    background:#2196F3;
+}
+
+.edit-btn:hover{
+    background:#0b7dda;
+}
